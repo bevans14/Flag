@@ -1,0 +1,110 @@
+.TableContainer{
+    border: solid black 5px;
+    width: 50%;
+}
+table{
+    width: 100%;
+    height: 300px;
+    border-collapse: collapse;
+    }
+
+tr:nth-child(odd){
+    background-color: red;
+    
+}
+
+tr:nth-child(even){
+    background-color: white;
+    
+}
+.Image{
+    display: flex;
+    position: absolute;
+    top: 85px;
+    
+}
+th, td{
+    padding: 0%;
+    margin: 0%;
+}
+
+/* Responsiveness */
+
+@media only screen and (max-width: 400px){
+    .TableContainer{
+        border: solid black 5px;
+        width: 95%;
+        
+    }
+
+    table{
+        height: 175px;
+    }
+
+img{
+    width: 126px;
+   
+}
+
+}
+
+@media only screen and (min-width: 400px){
+
+    .TableContainer{
+        width: 85%;
+    }
+
+    table{
+        height: 175px;
+    }
+
+    img{
+        width: 127px;
+    }
+
+}
+@media only screen and (min-width: 500px){
+
+    .TableContainer{
+        width: 85%;
+    }
+
+    table{
+        height: 250px;
+    }
+
+    img{
+        width: 181px;
+    }
+
+}
+@media only screen and (min-width: 800px){
+
+    .TableContainer{
+        width: 85%;
+    }
+
+    table{
+        height: 400px;
+    }
+
+    img{
+        width: 289px;
+    }
+
+}
+@media only screen and (min-width: 1000px){
+
+    .TableContainer{
+        width: 85%;
+    }
+
+    table{
+        height: 550px;
+    }
+
+    img{
+        width: 398px;
+    }
+
+}
